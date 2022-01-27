@@ -1,6 +1,6 @@
 import { useState , useContext } from 'react';
 import './signup.css'    
-import logo from '../../assets/logo.png';
+import vendas from '../../assets/novo.png';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../../contexts/auth'; 
 
@@ -20,7 +20,7 @@ function SignUp(){
         <div className="container">
             <div className="login">
               <div className="login-area">
-                  <img src={logo} alt="Sistema logo"/>
+                  <img src={vendas} alt="Sistema logo"/>
               </div>
                 <form onSubmit={handleSubmit}>
                     <h1>Cadastrar</h1>
