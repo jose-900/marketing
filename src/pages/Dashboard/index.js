@@ -138,7 +138,7 @@ return(
                                <th scope="col">Assunto</th>
                                <th scope="col">Status</th>
                                <th scope="col">Cadastrado em</th>
-                               <th scope="col">#</th>
+                               <th scope="col">Historico</th>
                             </tr>
                         </thead>
                         <tbody>
